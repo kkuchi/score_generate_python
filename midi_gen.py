@@ -22,7 +22,7 @@ print(res)
 
 # 1ならvelocity=127で音符、0ならvelocity=0で休符を入れる
 # デフォルトはtimeが480で四分音符なので、240で8分音符になる
-# timeは最後の入力からの相対時間
+
 for i in res:
 	for j in i:
 		if j == 1:
